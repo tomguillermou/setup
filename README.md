@@ -18,6 +18,7 @@ keybind = alt+up=text:\x1b[1;3A
 keybind = alt+down=text:\x1b[1;3B
 unfocused-split-opacity = 0.5
 unfocused-split-fill = #1e2127
+window-save-state = always
 EOF
 ```
 
