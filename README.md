@@ -54,13 +54,6 @@ EOF
 ```sh
 mkdir -p ~/.config
 cat > ~/.config/starship.toml << 'EOF'
-[python]
-disabled = true
-
-[git_status]
-disabled = true
-
-[gcloud]
-disabled = true
+format = "$directory$git_branch$nodejs$line_break$character"
 EOF
 ```
