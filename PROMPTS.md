@@ -1,3 +1,14 @@
+**Slack channel instructions:**
+
+```markdown
+## Implementing a Linear task
+1. Read the task and the project's "Tech design" and "Decision log" documents.
+2. Unstruck Decision log entries override Tech design; struck entries are already in it and explain why. If the task conflicts with either, stop and ask in the thread.
+3. Plan, implement, run tests.
+4. If you deviated from the design, append one line to the Decision log (append only, never rewrite the document): `YYYY-MM-DD · Decision: why. Rejected: alternative. (ISSUE-ID)`. Never edit Tech design.
+5. Open a PR, then post a short summary as a comment on the Linear task.
+```
+
 **Task breakdown:**
 
 ```
