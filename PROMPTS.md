@@ -1,7 +1,7 @@
 **Slack channel instructions:**
 
 ```markdown
-## Implementing a task
+Implementing a task
 1. Read the task and the project's "Tech design" document in Linear.
 2. If the task conflicts with the Tech design, stop and ask in the thread.
 3. If two systems that should agree diverge, stop and ask in the thread which to keep before writing code for either. This applies whenever you find one, before or during implementation. In one message, describe the divergence, give the options (keep one, keep the other, or keep both) with what each costs, and recommend one. Never accommodate both unless the user chooses that. If dropping one goes beyond the task's scope, say so and propose a follow-up task.
