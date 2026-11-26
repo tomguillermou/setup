@@ -1,7 +1,26 @@
 **Task breakdown**
 
 ```
-Read the Linear project "<PROJECT>": its description (the project brief), its "Tech design" document, and its "Decision log" document, where unstruck entries override Tech design. Use only these and the codebase; you have no other context about this project.
+Linear project: {{project_url}}
+
+Read the Linear project: its description (the project brief) and its "Tech design" document. Use only these and the codebase; you have no other context about this project.
+
+Break the work into Linear issues in this project, each a PR-sized unit that an agent with no prior context can complete in one session. Each issue description must contain:
+- Goal: one or two sentences on what it delivers and why.
+- Design reference: a link to the Tech design document and the name of the section it implements.
+- Scope: what is in, and what is explicitly out.
+- Acceptance criteria: concrete, testable checks.
+- Definition of done: the tests to add or update, and a PR opened.
+
+Each issue touches either the frontend or the backend, never both. When work spans both, split it into smaller iterations, typically the backend change first and then the frontend change that uses it, each leaving main in a working state.
+
+Create every issue with the status Todo and exactly one label: "Tech debt" for cleanup, refactoring, or removal that adds no new behavior; otherwise "Frontend" or "Backend" for the side it touches. Use the existing labels; if one is missing, ask me before creating it.
+
+Create flat issues, not sub-issues. Set blocking relations so the dependency order is explicit, and keep issues independent wherever the design allows, so they can run in parallel. If the project already has issues, keep the ones that still match the design and create only what's missing; ask me before canceling any that don't.
+
+Work through the issues in dependency order and create each one as soon as it's fully defined, without asking for approval. Do not make decisions the design doesn't make: when an issue can't be written without guessing, because the design is missing something, is ambiguous, or contradicts the code, stop and ask me before creating it. In one message, describe the gap, give the options with what each costs, and recommend one. If my answer is a design decision, propose a concise edit to the Tech design and apply it once I approve; if it's task-level detail, put it in the issue. If an answer affects issues already created, update them.
+
+When done, list the issues created, updated, or canceled, one line each.
 ```
 
 **Design session**
