@@ -51,7 +51,7 @@ Break the work into Linear issues in this project, each a PR-sized unit that an 
 - Design reference: a link to the Tech design document and the name of the section it implements.
 - Scope: what is in, and what is explicitly out.
 - Acceptance criteria: concrete, testable checks.
-- Definition of done: the tests to add or update.
+- Tests: the tests to add or update.
 
 Each issue touches either the frontend or the backend, never both. When work spans both, split it into smaller iterations, typically the backend change first and then the frontend change that uses it, each leaving main in a working state.
 
