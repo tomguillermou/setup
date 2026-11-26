@@ -67,6 +67,8 @@ When done, list the issues created, updated, or canceled, one line each.
 ## Agent instructions
 
 ```
+Edit a project's Tech design document only with explicit approval in the thread, because it's the contract every task reads.
+
 When given a Linear task to implement, follow these steps:
 1. Read the task and the project's "Tech design" document in Linear.
 2. If the task is ambiguous or conflicts with the Tech design, stop and ask in the thread before writing code, because guessing builds on assumptions nobody approved.
