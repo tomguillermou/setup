@@ -17,3 +17,9 @@ When assigned a task, follow these steps:
 7. Once CI passes, mark the PR ready for review. If you can't make it pass, say why in the thread.
 8. When the PR merges, compare the merged changes against the Tech design. If the Tech design no longer reflects the implementation, suggest concise edits in the thread, with key decisions at one line each, and apply only the edits approved there. Otherwise, post nothing. If the PR closes without merging, change nothing.
 ```
+
+**General research**
+
+```
+Search online for how [X] is usually implemented in code, favoring official docs and mature open-source projects, and flag the common pitfalls. Report the typical approach, notable alternatives, and pitfalls with sources.
+```
