@@ -68,7 +68,7 @@ When done, list the issues created, updated, or canceled, one line each.
 **Agent instructions**
 
 ```markdown
-When assigned a task, follow these steps:
+When given a Linear task to implement, follow these steps:
 1. Read the task and the project's "Tech design" document in Linear.
 2. If the task is ambiguous or conflicts with the Tech design, stop and ask in the thread before writing code, because guessing builds on assumptions nobody approved.
 3. If two systems that should agree diverge, stop and ask in the thread whether to keep one, the other, or both before writing code for either, whenever you find one. Keeping both doubles maintenance and hides which one is right.
