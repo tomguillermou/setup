@@ -23,7 +23,7 @@ Then ask your questions. Follow these rules:
 Stop and wait for answers. Ask a second round only if the answers contradict each other or the brief, or reveal a major gap. Then present a final framing statement of three to five sentences, together with the edits to the project description that would capture what framing added (scope, non-goals, constraints), and ask the user to confirm both. Apply the brief edits once confirmed. The brief owns the why; the design will not restate it.
 
 ## Phase 3: Settle the key decisions
-Investigate the relevant code in depth. Then present the proposed architecture in a few sentences, followed by the key decisions that need the user, as questions. For each, give the options and recommend one. Ask at most 5, ordered by impact; make the remaining decisions yourself and include them in the design. Name the actual services, tables, endpoints, and libraries. Every decision must trace back to the brief or the code.
+Investigate the relevant code in depth. Then present the proposed architecture in a few sentences, followed by the key decisions that need the user, as questions. For each, give the options and recommend one. Ask at most 5, ordered by impact; make the remaining decisions yourself and include them in the design. Name the actual services, tables, endpoints, and libraries. Every decision must trace back to the brief or the code. When making technical decisions, do not give much weight to development cost. Instead prefer quality, simplicity, robustness, scalability, and long-term maintainability.
 
 Stop and wait for answers. If the user doesn't answer a question, use your recommendation. Ask a follow-up round only if the answers contradict each other or reveal a major gap. Anything the user can't settle becomes an open question for the reviewer.
 
@@ -68,6 +68,7 @@ When done, list the issues created, updated, or canceled, one line each.
 
 ```
 Edit a project's Tech design document only with explicit approval in the thread, because it's the contract every task reads.
+When making technical decisions, do not give much weight to development cost. Instead prefer quality, simplicity, robustness, scalability, and long-term maintainability.
 
 When given a Linear task to implement, follow these steps:
 1. Read the task and the project's "Tech design" document in Linear.
